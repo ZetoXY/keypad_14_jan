@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "hardware/pwm.h"
 
-#define ROWS 4
-#define COLS 4
+#define ROWS 4 //linhas
+#define COLS 4 //colunas
 
 uint rowPins[ROWS] = {8, 7, 6, 5}; // Pinos conectados às linhas do teclado
 uint colPins[COLS] = {4, 3, 2, 1}; // Pinos conectados às colunas do teclado
