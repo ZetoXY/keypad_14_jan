@@ -42,7 +42,7 @@ O código fonte do projeto está disponível no arquivo [`keypad_14_jan.c`](./ke
 3. Alimente o Raspberry Pi Pico e teste as funcionalidades pressionando as teclas do teclado matricial.
 
 ## Vídeo
-https://drive.google.com/file/d/1TIzOTXDMTqdOpMoY-i49llaGKX9XHSTP/view?usp=sharing
+https://drive.google.com/file/d/16YoFY1BWDy9PEkTdgIPBYjgSiTu8xjoI/view?usp=sharing
 
 ## Licença
 Este projeto está licenciado sob a [MIT License](./LICENSE).
