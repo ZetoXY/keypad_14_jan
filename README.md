@@ -1,4 +1,4 @@
-# Projeto de Controle de LEDs e Buzzer com Teclado Matricial 4x4
+# Projeto de Controle de LEDs e Buzzer com Teclado Matricial 4x4.
 
 ## Descrição
 Este projeto utiliza um **Raspberry Pi Pico** para controlar três LEDs (azul, verde e vermelho) e um buzzer, com base na entrada de um teclado matricial 4x4. O sistema, desenvolvido em **C**, lê as teclas pressionadas no teclado e aciona os LEDs e o buzzer conforme definido.
