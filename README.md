@@ -34,11 +34,11 @@ O diagrama de conexões está detalhado no arquivo `diagram.json`. As conexões 
 - **Tecla #**: Aciona o **buzzer**, que emite um som curto e contínuo a cada 250 ms
 
 ## Código Fonte
-O código fonte do projeto está disponível no arquivo [`main.c`](./main.c). Ele configura os pinos do Raspberry Pi Pico, lê as teclas pressionadas e controla os LEDs e o buzzer conforme as entradas do teclado matricial.
+O código fonte do projeto está disponível no arquivo [`keypad_14_jan.c`](./keypad_14_jan.c). Ele configura os pinos do Raspberry Pi Pico, lê as teclas pressionadas e controla os LEDs e o buzzer conforme as entradas do teclado matricial.
 
 ## Como Executar
 1. Conecte todos os componentes seguindo o diagrama de conexões.
-2. Compile o arquivo `main.c` e faça o upload para o Raspberry Pi Pico.
+2. Compile o arquivo `keypad_14_jan.c` e faça o upload para o Raspberry Pi Pico.
 3. Alimente o Raspberry Pi Pico e teste as funcionalidades pressionando as teclas do teclado matricial.
 
 ## Vídeo
