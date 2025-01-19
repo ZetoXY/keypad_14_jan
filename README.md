@@ -41,6 +41,9 @@ O código fonte do projeto está disponível no arquivo [`main.c`](./main.c). El
 2. Compile o arquivo `main.c` e faça o upload para o Raspberry Pi Pico.
 3. Alimente o Raspberry Pi Pico e teste as funcionalidades pressionando as teclas do teclado matricial.
 
+## Vídeo
+https://drive.google.com/file/d/1TIzOTXDMTqdOpMoY-i49llaGKX9XHSTP/view?usp=sharing
+
 ## Licença
 Este projeto está licenciado sob a [MIT License](./LICENSE).
 
