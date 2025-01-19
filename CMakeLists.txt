@@ -34,8 +34,7 @@ project(keypad_14_jan C CXX ASM)
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
-
-add_executable(keypad_14_jan keypad_14_jan.c )
+add_executable(keypad_14_jan keypad_14_jan.c)
 
 pico_set_program_name(keypad_14_jan "keypad_14_jan")
 pico_set_program_version(keypad_14_jan "0.1")
@@ -46,16 +45,27 @@ pico_enable_stdio_usb(keypad_14_jan 0)
 
 # Add the standard library to the build
 target_link_libraries(keypad_14_jan
-        pico_stdlib)
+        pico_stdlib
+)
 
 # Add the standard include files to the build
 target_include_directories(keypad_14_jan PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}
 )
 
+# Include hardware PWM header
+target_include_directories(keypad_14_jan PRIVATE 
+  ${PICO_SDK_PATH}/src/rp2_common/hardware_pwm/include
+)
+
+# Link PWM hardware library
+target_link_libraries(keypad_14_jan
+  hardware_pwm
+)
+
 # Add any user requested libraries
 target_link_libraries(keypad_14_jan 
-        
-        )
+        # Add more libraries here if needed
+)
 
 pico_add_extra_outputs(keypad_14_jan)
